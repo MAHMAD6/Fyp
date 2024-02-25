@@ -16,4 +16,5 @@ namespace Project_Pulse.DL
         public Color ColorfulErrorExtraColor { get; } = ColorTranslator.FromHtml("#7e2a33");
 
     }
+
 }

@@ -1,5 +1,6 @@
 ﻿using Project_Pulse.UI.FORMS;
 using System;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace Project_Pulse
@@ -15,7 +16,7 @@ namespace Project_Pulse
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new loading_page());
-            Application.Run(new manager_main_page());
+            Application.Run(new message_form("Error", "Unable  to  save  Group:  Invalid  Data", ColorTranslator.FromHtml("#D02A1D"), ColorTranslator.FromHtml("#811511"), Project_Pulse.Properties.Resources.close_circle_light));            //Application.Run(new manager_main_page());
 
         }
     }

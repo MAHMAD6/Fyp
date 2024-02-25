@@ -14,7 +14,8 @@ namespace Project_Pulse
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new loading_page());
+            //Application.Run(new loading_page());
+            Application.Run(new manager_main_page());
 
         }
     }

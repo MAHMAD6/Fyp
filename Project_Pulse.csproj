@@ -73,6 +73,12 @@
     <Compile Include="UI\FORMS\loading_page.Designer.cs">
       <DependentUpon>loading_page.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\FORMS\manager_main_page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FORMS\manager_main_page.Designer.cs">
+      <DependentUpon>manager_main_page.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -85,6 +91,9 @@
     </Compile>
     <EmbeddedResource Include="UI\FORMS\loading_page.resx">
       <DependentUpon>loading_page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FORMS\manager_main_page.resx">
+      <DependentUpon>manager_main_page.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -104,6 +113,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\loading_bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maximize_dark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minmize_dark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maximize_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_dark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\project_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sign_out_dark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sign_out_light.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

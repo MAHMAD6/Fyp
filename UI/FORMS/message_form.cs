@@ -4,14 +4,14 @@ using System.Windows.Forms;
 
 namespace Project_Pulse.UI.FORMS
 {
-    public partial class message_form : Form
+    public partial class form_message : Form
     {
         string messageHeading;
         string messagetext;
         Color borderColor;
         Color bgColor;
         Image messageIcon;
-        public message_form(string messageHeading, string messagetext, Color borderColor, Color bgColor, Image messageIcon)
+        public form_message(string messageHeading, string messagetext, Color borderColor, Color bgColor, Image messageIcon)
         {
             InitializeComponent();
 
@@ -53,6 +53,13 @@ namespace Project_Pulse.UI.FORMS
             this.borderColor = borderColor;
             this.bgColor = bgColor;
             this.messageIcon = messageIcon;
+
+            // form elements initialization
+            label_dark.Text = messageHeading;
+            label_light.Text = messagetext;
+            PB_message_icon.Image = messageIcon;
+            gunaShadowPanel.BackColor = bgColor;
+            this.BackColor = borderColor;
         }
 
         // Fade is still in progress

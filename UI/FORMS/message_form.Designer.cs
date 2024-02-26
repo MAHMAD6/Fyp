@@ -1,6 +1,6 @@
 ﻿namespace Project_Pulse.UI.FORMS
 {
-    partial class message_form
+    partial class form_message
     {
         /// <summary>
         /// Required designer variable.
@@ -32,9 +32,9 @@
             this.elipse_form = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.timer_fade_form = new System.Windows.Forms.Timer(this.components);
             this.gunaShadowPanel = new Guna.UI.WinForms.GunaShadowPanel();
-            this.PB_message_icon = new System.Windows.Forms.PictureBox();
-            this.label_dark = new Guna.UI.WinForms.GunaLabel();
             this.label_light = new Guna.UI.WinForms.GunaLabel();
+            this.label_dark = new Guna.UI.WinForms.GunaLabel();
+            this.PB_message_icon = new System.Windows.Forms.PictureBox();
             this.gunaShadowPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PB_message_icon)).BeginInit();
             this.SuspendLayout();
@@ -66,16 +66,16 @@
             this.gunaShadowPanel.Size = new System.Drawing.Size(509, 108);
             this.gunaShadowPanel.TabIndex = 0;
             // 
-            // PB_message_icon
+            // label_light
             // 
-            this.PB_message_icon.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.PB_message_icon.Image = global::Project_Pulse.Properties.Resources.close_circle_light;
-            this.PB_message_icon.Location = new System.Drawing.Point(46, 25);
-            this.PB_message_icon.Name = "PB_message_icon";
-            this.PB_message_icon.Size = new System.Drawing.Size(40, 26);
-            this.PB_message_icon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PB_message_icon.TabIndex = 0;
-            this.PB_message_icon.TabStop = false;
+            this.label_light.AutoSize = true;
+            this.label_light.Font = new System.Drawing.Font("Vazirmatn Medium", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_light.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.label_light.Location = new System.Drawing.Point(49, 59);
+            this.label_light.Name = "label_light";
+            this.label_light.Size = new System.Drawing.Size(371, 38);
+            this.label_light.TabIndex = 2;
+            this.label_light.Text = "Failed  to  save:  Invalid  Group Data";
             // 
             // label_dark
             // 
@@ -88,18 +88,18 @@
             this.label_dark.TabIndex = 1;
             this.label_dark.Text = "Error";
             // 
-            // label_light
+            // PB_message_icon
             // 
-            this.label_light.AutoSize = true;
-            this.label_light.Font = new System.Drawing.Font("Vazirmatn Medium", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_light.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.label_light.Location = new System.Drawing.Point(49, 59);
-            this.label_light.Name = "label_light";
-            this.label_light.Size = new System.Drawing.Size(371, 38);
-            this.label_light.TabIndex = 2;
-            this.label_light.Text = "Failed  to  save:  Invalid  Group Data";
+            this.PB_message_icon.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.PB_message_icon.Image = global::Project_Pulse.Properties.Resources.close_circle_light;
+            this.PB_message_icon.Location = new System.Drawing.Point(46, 25);
+            this.PB_message_icon.Name = "PB_message_icon";
+            this.PB_message_icon.Size = new System.Drawing.Size(40, 26);
+            this.PB_message_icon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PB_message_icon.TabIndex = 0;
+            this.PB_message_icon.TabStop = false;
             // 
-            // message_form
+            // form_message
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -107,7 +107,7 @@
             this.ClientSize = new System.Drawing.Size(509, 108);
             this.Controls.Add(this.gunaShadowPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "message_form";
+            this.Name = "form_message";
             this.Opacity = 0D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "message_form";

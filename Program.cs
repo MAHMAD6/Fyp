@@ -1,5 +1,4 @@
-﻿using Project_Pulse.DL;
-using Project_Pulse.UI.FORMS;
+﻿using Project_Pulse.UI.FORMS;
 using System;
 using System.Windows.Forms;
 
@@ -18,8 +17,9 @@ namespace Project_Pulse
             //Application.Run(new loading_page());
             //Application.Run(new message_form("Error", "Unable  to  save  Group:  Invalid  Data", ColorTranslator.FromHtml("#D02A1D"), ColorTranslator.FromHtml("#811511"), Project_Pulse.Properties.Resources.close_circle_light));         
             //Application.Run(new manager_main_page());
-            Essentials.SendEmail("6hafizmuhammadahmad6@gmail.com", "test", "new");
-            Application.Run(new login_form());
+
+            Application.Run(new form_login());
+            //Application.Run(new form_credentials());
 
 
         }

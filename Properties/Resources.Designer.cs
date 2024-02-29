@@ -63,6 +63,126 @@ namespace Project_Pulse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap assistant_angry {
+            get {
+                object obj = ResourceManager.GetObject("assistant_angry", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap assistant_crying {
+            get {
+                object obj = ResourceManager.GetObject("assistant_crying", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap assistant_happy_1 {
+            get {
+                object obj = ResourceManager.GetObject("assistant_happy_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap assistant_happy_2 {
+            get {
+                object obj = ResourceManager.GetObject("assistant_happy_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap assistant_happy_3 {
+            get {
+                object obj = ResourceManager.GetObject("assistant_happy_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap assistant_injured {
+            get {
+                object obj = ResourceManager.GetObject("assistant_injured", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap assistant_kidding {
+            get {
+                object obj = ResourceManager.GetObject("assistant_kidding", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap assistant_loved {
+            get {
+                object obj = ResourceManager.GetObject("assistant_loved", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap assistant_sad {
+            get {
+                object obj = ResourceManager.GetObject("assistant_sad", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap assistant_shocked {
+            get {
+                object obj = ResourceManager.GetObject("assistant_shocked", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap assistant_shocked_2 {
+            get {
+                object obj = ResourceManager.GetObject("assistant_shocked_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap assistant_shocked_swirl {
+            get {
+                object obj = ResourceManager.GetObject("assistant_shocked_swirl", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap close_circle_light {
             get {
                 object obj = ResourceManager.GetObject("close_circle_light", resourceCulture);
@@ -87,6 +207,26 @@ namespace Project_Pulse.Properties {
             get {
                 object obj = ResourceManager.GetObject("close_light", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap close_red {
+            get {
+                object obj = ResourceManager.GetObject("close_red", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon cursor {
+            get {
+                object obj = ResourceManager.GetObject("cursor", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
             }
         }
         
@@ -153,6 +293,26 @@ namespace Project_Pulse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap sign_in_dark {
+            get {
+                object obj = ResourceManager.GetObject("sign_in_dark", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sign_in_light {
+            get {
+                object obj = ResourceManager.GetObject("sign_in_light", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap sign_out_dark {
             get {
                 object obj = ResourceManager.GetObject("sign_out_dark", resourceCulture);
@@ -166,6 +326,36 @@ namespace Project_Pulse.Properties {
         internal static System.Drawing.Bitmap sign_out_light {
             get {
                 object obj = ResourceManager.GetObject("sign_out_light", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sign_up_dark {
+            get {
+                object obj = ResourceManager.GetObject("sign_up_dark", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Sign_up_light {
+            get {
+                object obj = ResourceManager.GetObject("Sign_up_light", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tick_yellow {
+            get {
+                object obj = ResourceManager.GetObject("tick_yellow", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

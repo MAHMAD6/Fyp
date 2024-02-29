@@ -118,6 +118,42 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="assistant_angry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\assistant_angry.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="assistant_crying" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\assistant_crying.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="assistant_happy_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\assistant_happy_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="assistant_happy_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\assistant_happy_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="assistant_happy_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\assistant_happy_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="assistant_injured" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\assistant_injured.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="assistant_kidding" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\assistant_kidding.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="assistant_loved" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\assistant_loved.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="assistant_sad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\assistant_sad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="assistant_shocked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\assistant_shocked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="assistant_shocked_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\assistant_shocked_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="assistant_shocked_swirl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\assistant_shocked_swirl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="close_circle_light" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\close_circle_light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -126,6 +162,12 @@
   </data>
   <data name="close_light" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\close_light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="close_red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close_red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cursor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cursor.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="loading_bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\loading_bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -145,10 +187,25 @@
   <data name="project_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\project_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="sign_in_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sign_in_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sign_in_light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sign_in_light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="sign_out_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sign_out_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sign_out_light" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sign_out_light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sign_up_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sign_up_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sign_up_light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sign_up_light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tick_yellow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tick_yellow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

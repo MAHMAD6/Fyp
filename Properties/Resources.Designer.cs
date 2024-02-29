@@ -293,6 +293,26 @@ namespace Project_Pulse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Side_panel_light_ {
+            get {
+                object obj = ResourceManager.GetObject("Side_panel_light_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap side_panel_light__ {
+            get {
+                object obj = ResourceManager.GetObject("side_panel_light__", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap sign_in_dark {
             get {
                 object obj = ResourceManager.GetObject("sign_in_dark", resourceCulture);
@@ -333,6 +353,16 @@ namespace Project_Pulse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap sign_out_ligt {
+            get {
+                object obj = ResourceManager.GetObject("sign_out_ligt", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap sign_up_dark {
             get {
                 object obj = ResourceManager.GetObject("sign_up_dark", resourceCulture);
@@ -346,6 +376,26 @@ namespace Project_Pulse.Properties {
         internal static System.Drawing.Bitmap Sign_up_light {
             get {
                 object obj = ResourceManager.GetObject("Sign_up_light", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap student_dark {
+            get {
+                object obj = ResourceManager.GetObject("student_dark", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap student_light {
+            get {
+                object obj = ResourceManager.GetObject("student_light", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

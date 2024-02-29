@@ -113,6 +113,12 @@
     <Compile Include="UI\FORMS\message_form.Designer.cs">
       <DependentUpon>message_form.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\UserControls\Advisor\UC_manage_Students.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\UserControls\Advisor\UC_manage_Students.Designer.cs">
+      <DependentUpon>UC_manage_Students.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\UserControls\UC_Button.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -174,6 +180,9 @@
     <EmbeddedResource Include="UI\FORMS\message_form.resx">
       <DependentUpon>message_form.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\UserControls\Advisor\UC_manage_Students.resx">
+      <DependentUpon>UC_manage_Students.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\UserControls\UC_Button.resx">
       <DependentUpon>UC_Button.cs</DependentUpon>
     </EmbeddedResource>
@@ -231,9 +240,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\project_logo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\sign_out_dark.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\sign_out_light.png" />
@@ -294,6 +300,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\assistant_injured.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\student_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Side_panel_light_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\side_panel_light__.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\student_dark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sign_out_ligt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sign_out_dark.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

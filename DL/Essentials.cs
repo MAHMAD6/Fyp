@@ -9,6 +9,7 @@ namespace Project_Pulse.DL
 {
     public enum LOOKUP
     {
+        NULL = 0,
         MALE = 1,
         FEMALE,
         ACTIVE,
@@ -44,6 +45,14 @@ namespace Project_Pulse.DL
     }
     public class Essentials
     {
+        public static Color TextColor = ColorTranslator.FromHtml("#d1d0c5");
+
+        public static Color Panel_light = ColorTranslator.FromHtml("#323437");
+        public static Color panel_dark = ColorTranslator.FromHtml("#ca4754");
+        public static Color panel_border_top = MainColor;
+        public static Color heading_ = TextColor;
+        public static Color text_ = TextColor;
+        public static Color text_unhighlighted = TextColor;
         public static string AppName { get; } = "Project Navigator";
         public static string MyName { get; } = "M Ahmad";
         public static string MyRole { get; } = "Creator";
@@ -60,11 +69,10 @@ namespace Project_Pulse.DL
 
         }
         public static Color BgColor { get; } = ColorTranslator.FromHtml("#323437");
-        public static Color MainColor { get; } = ColorTranslator.FromHtml("#e2b714");
+        public static Color MainColor { get; } = ColorTranslator.FromHtml("#e2b 714");
         public static Color CaretColor { get; } = ColorTranslator.FromHtml("#e2b714");
         public static Color SubColor { get; } = ColorTranslator.FromHtml("#646669");
         public static Color SubAltColor = ColorTranslator.FromHtml("#2c2e31");
-        public static Color TextColor { get; } = ColorTranslator.FromHtml("#d1d0c5");
         public static Color ErrorColor { get; } = ColorTranslator.FromHtml("#ca4754");
         public static Color ErrorExtraColor { get; } = ColorTranslator.FromHtml("#7e2a33");
         public static string SqlConnectionString { get; } = "Data Source=MYLAPTOP;Initial Catalog=ProjectA;Integrated Security=True";

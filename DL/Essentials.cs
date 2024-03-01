@@ -4,9 +4,21 @@ using System.Drawing;
 using System.Drawing.Imaging;
 using System.Net;
 using System.Net.Mail;
+using System.Windows.Forms;
 
 namespace Project_Pulse.DL
 {
+
+    public class Color_
+    {
+        public static Color dark_main = ColorTranslator.FromHtml("#12031D");
+        public static Color mid_light = ColorTranslator.FromHtml("#D8D3D3");
+        public static Color light = ColorTranslator.FromHtml("#F1F2F7");
+        public static Color colorful_main = ColorTranslator.FromHtml("#E2B714");
+        public static Color green = Color.Green;
+        public static Color darkgreen = Color.DarkGreen;
+
+    }
     public enum LOOKUP
     {
         NULL = 0,
@@ -41,7 +53,10 @@ namespace Project_Pulse.DL
         ID,
         MALE,
         FEMALE,
-        OTHER_GENDER
+        OTHER_GENDER,
+        STUDENT,
+        PERSON,
+        ADVISOR
     }
     public class Essentials
     {
@@ -69,7 +84,7 @@ namespace Project_Pulse.DL
 
         }
         public static Color BgColor { get; } = ColorTranslator.FromHtml("#323437");
-        public static Color MainColor { get; } = ColorTranslator.FromHtml("#e2b 714");
+        public static Color MainColor { get; } = ColorTranslator.FromHtml("#e2b714");
         public static Color CaretColor { get; } = ColorTranslator.FromHtml("#e2b714");
         public static Color SubColor { get; } = ColorTranslator.FromHtml("#646669");
         public static Color SubAltColor = ColorTranslator.FromHtml("#2c2e31");
@@ -93,6 +108,41 @@ namespace Project_Pulse.DL
 
             return bmp;
         }
+        public static string LookupToString(int val)
+        {
+            switch (val)
+            {
+                case 0:
+                    return null;
+                case 1:
+                    return "Male";
+                case 2:
+                    return "Female";
+                case 3:
+                    return "Active";
+                case 4:
+                    return "InActive";
+                case 5:
+                    return "Professor";
+                case 6:
+                    return "Associate";
+                case 7:
+                    return "Assistant";
+                case 8:
+                    return "Lecturer";
+                case 9:
+                    return "Industrial-professional";
+                case 10:
+                    return "Main-Advisor";
+                case 11:
+                    return "Co-Advisor";
+                case 12:
+                    return "Industry_Advisor";
+                case 13:
+                    return "Other";
+            }
+            return string.Empty;
+        }
         public static void SendEmail(String toEmailAddress, String Subject, String Body)
         {
             try
@@ -115,7 +165,7 @@ namespace Project_Pulse.DL
             }
             catch (Exception ex)
             {
-                //MessageBox.Show($"{ex}", " !!error");
+                MessageBox.Show($"{ex}", " !!error");
             }
         }
     }

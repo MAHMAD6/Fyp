@@ -283,6 +283,16 @@ namespace Project_Pulse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap profile_holder_ {
+            get {
+                object obj = ResourceManager.GetObject("profile_holder_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap project_logo {
             get {
                 object obj = ResourceManager.GetObject("project_logo", resourceCulture);

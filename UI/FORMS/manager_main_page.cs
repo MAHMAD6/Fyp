@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Project_Pulse.UI.UserControls.Advisor;
+using System;
 using System.Windows.Forms;
 
 namespace Project_Pulse.UI.FORMS
@@ -11,33 +12,15 @@ namespace Project_Pulse.UI.FORMS
 
         }
 
-
-
-        private void manager_main_page_Load(object sender, EventArgs e)
+        public void setMenu(UserControl userControl)
         {
+            panel_menu_container.Controls.Clear();
+            userControl.BringToFront();
+            userControl.Dock = DockStyle.Fill;
+            panel_menu_container.Controls.Add(userControl);
         }
 
-        private void btn_close_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
 
-        private void btn_maximize_Click(object sender, EventArgs e)
-        {
-            if (this.WindowState == FormWindowState.Maximized)
-            {
-                this.WindowState = FormWindowState.Normal;
-            }
-            else
-            {
-                this.WindowState = FormWindowState.Maximized;
-            }
-        }
-
-        private void btn_minimize_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Minimized;
-        }
 
 
 
@@ -46,7 +29,21 @@ namespace Project_Pulse.UI.FORMS
             Application.Exit();
         }
 
-        private void btn_maximize_Click_1(object sender, EventArgs e)
+
+
+        private void btn_student_Click(object sender, EventArgs e)
+        {
+            setMenu(new UC_manage_Students());
+
+        }
+
+        private void btn_close_Click_2(object sender, EventArgs e)
+        {
+            Application.Exit();
+
+        }
+
+        private void btn_maximize_Click_2(object sender, EventArgs e)
         {
             if (this.WindowState != FormWindowState.Maximized)
             {
@@ -61,29 +58,15 @@ namespace Project_Pulse.UI.FORMS
             }
         }
 
-        private void guna2CirclePictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_close_Click_1(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
-        private void btn_minimize_Click_1(object sender, EventArgs e)
+        private void btn_minimize_Click_2(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
 
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void gunaButton2_Click(object sender, EventArgs e)
         {
-
+            setMenu(new UC_manage_Advisor());
         }
     }
 }

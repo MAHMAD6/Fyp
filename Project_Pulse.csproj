@@ -113,11 +113,23 @@
     <Compile Include="UI\FORMS\message_form.Designer.cs">
       <DependentUpon>message_form.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\UserControls\Advisor\UC_manage_Students.cs">
+    <Compile Include="UI\UserControls\Advisor__\UC_manage_Advisor.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UI\UserControls\Advisor\UC_manage_Students.Designer.cs">
+    <Compile Include="UI\UserControls\Advisor__\UC_manage_Advisor.Designer.cs">
+      <DependentUpon>UC_manage_Advisor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UserControls\Advisor__\UC_manage_Students.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\UserControls\Advisor__\UC_manage_Students.Designer.cs">
       <DependentUpon>UC_manage_Students.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UserControls\UC_About.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\UserControls\UC_About.Designer.cs">
+      <DependentUpon>UC_About.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\UserControls\UC_Button.cs">
       <SubType>UserControl</SubType>
@@ -143,11 +155,47 @@
     <Compile Include="UI\UserControls\UC_Gender.Designer.cs">
       <DependentUpon>UC_Gender.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\UserControls\UC_Loadmore.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\UserControls\UC_Loadmore.Designer.cs">
+      <DependentUpon>UC_Loadmore.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\UserControls\uc_message_for_controls.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UI\UserControls\uc_message_for_controls.Designer.cs">
       <DependentUpon>uc_message_for_controls.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UserControls\UC_search_result.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\UserControls\UC_search_result.Designer.cs">
+      <DependentUpon>UC_search_result.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UserControls\UC_search_TB.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\UserControls\UC_search_TB.Designer.cs">
+      <DependentUpon>UC_search_TB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UserControls\UC_Student_card.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\UserControls\UC_Student_card.Designer.cs">
+      <DependentUpon>UC_Student_card.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UserControls\UC_Student_Details_card.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\UserControls\UC_Student_Details_card.Designer.cs">
+      <DependentUpon>UC_Student_Details_card.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UserControls\UC_data_tile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\UserControls\UC_data_tile.Designer.cs">
+      <DependentUpon>UC_data_tile.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\UserControls\UC_TextBox.cs">
       <SubType>UserControl</SubType>
@@ -180,8 +228,14 @@
     <EmbeddedResource Include="UI\FORMS\message_form.resx">
       <DependentUpon>message_form.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\UserControls\Advisor\UC_manage_Students.resx">
+    <EmbeddedResource Include="UI\UserControls\Advisor__\UC_manage_Advisor.resx">
+      <DependentUpon>UC_manage_Advisor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UserControls\Advisor__\UC_manage_Students.resx">
       <DependentUpon>UC_manage_Students.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UserControls\UC_About.resx">
+      <DependentUpon>UC_About.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\UserControls\UC_Button.resx">
       <DependentUpon>UC_Button.cs</DependentUpon>
@@ -197,6 +251,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UI\UserControls\uc_message_for_controls.resx">
       <DependentUpon>uc_message_for_controls.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UserControls\UC_search_result.resx">
+      <DependentUpon>UC_search_result.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UserControls\UC_Student_card.resx">
+      <DependentUpon>UC_Student_card.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UserControls\UC_Student_Details_card.resx">
+      <DependentUpon>UC_Student_Details_card.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UserControls\UC_data_tile.resx">
+      <DependentUpon>UC_data_tile.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\UserControls\UC_TextBox.resx">
       <DependentUpon>UC_TextBox.cs</DependentUpon>
@@ -318,6 +384,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\sign_out_dark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile_holder_.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

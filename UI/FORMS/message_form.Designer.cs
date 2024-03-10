@@ -30,41 +30,36 @@
         {
             this.components = new System.ComponentModel.Container();
             this.elipse_form = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.timer_fade_form = new System.Windows.Forms.Timer(this.components);
-            this.gunaShadowPanel = new Guna.UI.WinForms.GunaShadowPanel();
+            this.panel_back = new Guna.UI.WinForms.GunaShadowPanel();
             this.label_light = new Guna.UI.WinForms.GunaLabel();
             this.label_dark = new Guna.UI.WinForms.GunaLabel();
             this.PB_message_icon = new System.Windows.Forms.PictureBox();
-            this.gunaShadowPanel.SuspendLayout();
+            this.to_close = new System.Windows.Forms.Timer(this.components);
+            this.panel_back.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PB_message_icon)).BeginInit();
             this.SuspendLayout();
             // 
             // elipse_form
             // 
-            this.elipse_form.ElipseRadius = 30;
+            this.elipse_form.ElipseRadius = 15;
             this.elipse_form.TargetControl = this;
             // 
-            // timer_fade_form
+            // panel_back
             // 
-            this.timer_fade_form.Enabled = true;
-            this.timer_fade_form.Tick += new System.EventHandler(this.timer_fade_form_Tick);
-            // 
-            // gunaShadowPanel
-            // 
-            this.gunaShadowPanel.BackColor = System.Drawing.Color.Transparent;
-            this.gunaShadowPanel.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(21)))), ((int)(((byte)(17)))));
-            this.gunaShadowPanel.Controls.Add(this.label_light);
-            this.gunaShadowPanel.Controls.Add(this.label_dark);
-            this.gunaShadowPanel.Controls.Add(this.PB_message_icon);
-            this.gunaShadowPanel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.gunaShadowPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gunaShadowPanel.Location = new System.Drawing.Point(0, 0);
-            this.gunaShadowPanel.Name = "gunaShadowPanel";
-            this.gunaShadowPanel.Radius = 6;
-            this.gunaShadowPanel.ShadowColor = System.Drawing.Color.Black;
-            this.gunaShadowPanel.ShadowDepth = 10;
-            this.gunaShadowPanel.Size = new System.Drawing.Size(509, 108);
-            this.gunaShadowPanel.TabIndex = 0;
+            this.panel_back.BackColor = System.Drawing.Color.Transparent;
+            this.panel_back.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(21)))), ((int)(((byte)(17)))));
+            this.panel_back.Controls.Add(this.label_light);
+            this.panel_back.Controls.Add(this.label_dark);
+            this.panel_back.Controls.Add(this.PB_message_icon);
+            this.panel_back.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panel_back.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel_back.Location = new System.Drawing.Point(0, 0);
+            this.panel_back.Name = "panel_back";
+            this.panel_back.Radius = 6;
+            this.panel_back.ShadowColor = System.Drawing.Color.Black;
+            this.panel_back.ShadowDepth = 10;
+            this.panel_back.Size = new System.Drawing.Size(509, 108);
+            this.panel_back.TabIndex = 0;
             // 
             // label_light
             // 
@@ -99,20 +94,26 @@
             this.PB_message_icon.TabIndex = 0;
             this.PB_message_icon.TabStop = false;
             // 
+            // to_close
+            // 
+            this.to_close.Enabled = true;
+            this.to_close.Interval = 1000;
+            this.to_close.Tick += new System.EventHandler(this.to_close_Tick);
+            // 
             // form_message
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(42)))), ((int)(((byte)(29)))));
             this.ClientSize = new System.Drawing.Size(509, 108);
-            this.Controls.Add(this.gunaShadowPanel);
+            this.Controls.Add(this.panel_back);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "form_message";
             this.Opacity = 0D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "message_form";
-            this.gunaShadowPanel.ResumeLayout(false);
-            this.gunaShadowPanel.PerformLayout();
+            this.panel_back.ResumeLayout(false);
+            this.panel_back.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PB_message_icon)).EndInit();
             this.ResumeLayout(false);
 
@@ -121,10 +122,10 @@
         #endregion
 
         private Bunifu.Framework.UI.BunifuElipse elipse_form;
-        private System.Windows.Forms.Timer timer_fade_form;
-        private Guna.UI.WinForms.GunaShadowPanel gunaShadowPanel;
+        private Guna.UI.WinForms.GunaShadowPanel panel_back;
         private Guna.UI.WinForms.GunaLabel label_light;
         private Guna.UI.WinForms.GunaLabel label_dark;
         private System.Windows.Forms.PictureBox PB_message_icon;
+        private System.Windows.Forms.Timer to_close;
     }
 }

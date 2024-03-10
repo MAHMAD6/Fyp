@@ -22,7 +22,7 @@ namespace Project_Pulse.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    public class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace Project_Pulse.Properties {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Project_Pulse.Properties.Resources", typeof(Resources).Assembly);
@@ -51,7 +51,7 @@ namespace Project_Pulse.Properties {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace Project_Pulse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap assistant_angry {
+        public static System.Drawing.Bitmap assistant_angry {
             get {
                 object obj = ResourceManager.GetObject("assistant_angry", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -73,7 +73,7 @@ namespace Project_Pulse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap assistant_crying {
+        public static System.Drawing.Bitmap assistant_crying {
             get {
                 object obj = ResourceManager.GetObject("assistant_crying", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -83,7 +83,7 @@ namespace Project_Pulse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap assistant_happy_1 {
+        public static System.Drawing.Bitmap assistant_happy_1 {
             get {
                 object obj = ResourceManager.GetObject("assistant_happy_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -93,7 +93,7 @@ namespace Project_Pulse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap assistant_happy_2 {
+        public static System.Drawing.Bitmap assistant_happy_2 {
             get {
                 object obj = ResourceManager.GetObject("assistant_happy_2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -103,7 +103,7 @@ namespace Project_Pulse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap assistant_happy_3 {
+        public static System.Drawing.Bitmap assistant_happy_3 {
             get {
                 object obj = ResourceManager.GetObject("assistant_happy_3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -113,7 +113,7 @@ namespace Project_Pulse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap assistant_injured {
+        public static System.Drawing.Bitmap assistant_injured {
             get {
                 object obj = ResourceManager.GetObject("assistant_injured", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -123,7 +123,7 @@ namespace Project_Pulse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap assistant_kidding {
+        public static System.Drawing.Bitmap assistant_kidding {
             get {
                 object obj = ResourceManager.GetObject("assistant_kidding", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -133,7 +133,7 @@ namespace Project_Pulse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap assistant_loved {
+        public static System.Drawing.Bitmap assistant_loved {
             get {
                 object obj = ResourceManager.GetObject("assistant_loved", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -143,7 +143,7 @@ namespace Project_Pulse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap assistant_sad {
+        public static System.Drawing.Bitmap assistant_sad {
             get {
                 object obj = ResourceManager.GetObject("assistant_sad", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -153,7 +153,7 @@ namespace Project_Pulse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap assistant_shocked {
+        public static System.Drawing.Bitmap assistant_shocked {
             get {
                 object obj = ResourceManager.GetObject("assistant_shocked", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -163,7 +163,7 @@ namespace Project_Pulse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap assistant_shocked_2 {
+        public static System.Drawing.Bitmap assistant_shocked_2 {
             get {
                 object obj = ResourceManager.GetObject("assistant_shocked_2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -173,7 +173,7 @@ namespace Project_Pulse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap assistant_shocked_swirl {
+        public static System.Drawing.Bitmap assistant_shocked_swirl {
             get {
                 object obj = ResourceManager.GetObject("assistant_shocked_swirl", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -183,7 +183,7 @@ namespace Project_Pulse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap close_circle_light {
+        public static System.Drawing.Bitmap close_circle_light {
             get {
                 object obj = ResourceManager.GetObject("close_circle_light", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -193,7 +193,7 @@ namespace Project_Pulse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap close_dark {
+        public static System.Drawing.Bitmap close_dark {
             get {
                 object obj = ResourceManager.GetObject("close_dark", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -203,7 +203,7 @@ namespace Project_Pulse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap close_light {
+        public static System.Drawing.Bitmap close_light {
             get {
                 object obj = ResourceManager.GetObject("close_light", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -213,7 +213,7 @@ namespace Project_Pulse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap close_red {
+        public static System.Drawing.Bitmap close_red {
             get {
                 object obj = ResourceManager.GetObject("close_red", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -223,7 +223,7 @@ namespace Project_Pulse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon cursor {
+        public static System.Drawing.Icon cursor {
             get {
                 object obj = ResourceManager.GetObject("cursor", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
@@ -233,7 +233,37 @@ namespace Project_Pulse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap loading_bg {
+        public static System.Drawing.Bitmap email_light {
+            get {
+                object obj = ResourceManager.GetObject("email_light", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap evaluation_logo {
+            get {
+                object obj = ResourceManager.GetObject("evaluation_logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap left_element_mainPage {
+            get {
+                object obj = ResourceManager.GetObject("left_element_mainPage", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap loading_bg {
             get {
                 object obj = ResourceManager.GetObject("loading_bg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -243,7 +273,7 @@ namespace Project_Pulse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap maximize_dark {
+        public static System.Drawing.Bitmap maximize_dark {
             get {
                 object obj = ResourceManager.GetObject("maximize_dark", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -253,7 +283,7 @@ namespace Project_Pulse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap maximize_light {
+        public static System.Drawing.Bitmap maximize_light {
             get {
                 object obj = ResourceManager.GetObject("maximize_light", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -263,7 +293,7 @@ namespace Project_Pulse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap minimize_light {
+        public static System.Drawing.Bitmap minimize_light {
             get {
                 object obj = ResourceManager.GetObject("minimize_light", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -273,7 +303,7 @@ namespace Project_Pulse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap minmize_dark {
+        public static System.Drawing.Bitmap minmize_dark {
             get {
                 object obj = ResourceManager.GetObject("minmize_dark", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -283,7 +313,17 @@ namespace Project_Pulse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap profile_holder_ {
+        public static System.Drawing.Bitmap pdf_logo {
+            get {
+                object obj = ResourceManager.GetObject("pdf_logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap profile_holder_ {
             get {
                 object obj = ResourceManager.GetObject("profile_holder_", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -293,7 +333,17 @@ namespace Project_Pulse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap project_logo {
+        public static System.Drawing.Bitmap project_icon_yellow {
+            get {
+                object obj = ResourceManager.GetObject("project_icon_yellow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap project_logo {
             get {
                 object obj = ResourceManager.GetObject("project_logo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -303,7 +353,27 @@ namespace Project_Pulse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Side_panel_light_ {
+        public static System.Drawing.Bitmap project_main_logo {
+            get {
+                object obj = ResourceManager.GetObject("project_main_logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap right_element_mainPage {
+            get {
+                object obj = ResourceManager.GetObject("right_element_mainPage", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Side_panel_light_ {
             get {
                 object obj = ResourceManager.GetObject("Side_panel_light_", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -313,7 +383,7 @@ namespace Project_Pulse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap side_panel_light__ {
+        public static System.Drawing.Bitmap side_panel_light__ {
             get {
                 object obj = ResourceManager.GetObject("side_panel_light__", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -323,7 +393,7 @@ namespace Project_Pulse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap sign_in_dark {
+        public static System.Drawing.Bitmap sign_in_dark {
             get {
                 object obj = ResourceManager.GetObject("sign_in_dark", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -333,7 +403,7 @@ namespace Project_Pulse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap sign_in_light {
+        public static System.Drawing.Bitmap sign_in_light {
             get {
                 object obj = ResourceManager.GetObject("sign_in_light", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -343,7 +413,7 @@ namespace Project_Pulse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap sign_out_dark {
+        public static System.Drawing.Bitmap sign_out_dark {
             get {
                 object obj = ResourceManager.GetObject("sign_out_dark", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -353,7 +423,7 @@ namespace Project_Pulse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap sign_out_light {
+        public static System.Drawing.Bitmap sign_out_light {
             get {
                 object obj = ResourceManager.GetObject("sign_out_light", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -363,7 +433,7 @@ namespace Project_Pulse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap sign_out_ligt {
+        public static System.Drawing.Bitmap sign_out_ligt {
             get {
                 object obj = ResourceManager.GetObject("sign_out_ligt", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -373,7 +443,7 @@ namespace Project_Pulse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap sign_up_dark {
+        public static System.Drawing.Bitmap sign_up_dark {
             get {
                 object obj = ResourceManager.GetObject("sign_up_dark", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -383,7 +453,7 @@ namespace Project_Pulse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Sign_up_light {
+        public static System.Drawing.Bitmap Sign_up_light {
             get {
                 object obj = ResourceManager.GetObject("Sign_up_light", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -393,7 +463,7 @@ namespace Project_Pulse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap student_dark {
+        public static System.Drawing.Bitmap student_dark {
             get {
                 object obj = ResourceManager.GetObject("student_dark", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -403,7 +473,7 @@ namespace Project_Pulse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap student_light {
+        public static System.Drawing.Bitmap student_light {
             get {
                 object obj = ResourceManager.GetObject("student_light", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -413,7 +483,17 @@ namespace Project_Pulse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap tick_yellow {
+        public static System.Drawing.Bitmap success_light {
+            get {
+                object obj = ResourceManager.GetObject("success_light", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap tick_yellow {
             get {
                 object obj = ResourceManager.GetObject("tick_yellow", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));

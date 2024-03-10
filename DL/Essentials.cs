@@ -9,15 +9,30 @@ using System.Windows.Forms;
 namespace Project_Pulse.DL
 {
 
+
     public class Color_
     {
         public static Color dark_main = ColorTranslator.FromHtml("#12031D");
         public static Color mid_light = ColorTranslator.FromHtml("#D8D3D3");
         public static Color light = ColorTranslator.FromHtml("#F1F2F7");
         public static Color colorful_main = ColorTranslator.FromHtml("#E2B714");
-        public static Color green = Color.Green;
-        public static Color darkgreen = Color.DarkGreen;
+        public static Color green = ColorTranslator.FromHtml("#ccff33");
+        public static Color green_mid = ColorTranslator.FromHtml("#70e000");
+        public static Color green_dark = ColorTranslator.FromHtml("#008000");
 
+    }
+    #region ENUMERATIONS
+    public enum ACTION
+    {
+        ADD_ADVISOR,
+        UPDATE_ADVISOR,
+        GROUP_DELETE,
+        GROUP_JOIN,
+        GROUP_LEAVE,
+        PROJECT_ADD,
+        PROJECT_UPDATE,
+        PROJECT_JOIN,
+        EVALUATION_NEW
     }
     public enum LOOKUP
     {
@@ -56,8 +71,16 @@ namespace Project_Pulse.DL
         OTHER_GENDER,
         STUDENT,
         PERSON,
-        ADVISOR
+        ADVISOR,
+        CLOSE,
+        GROUP,
+        JOINGROUP,
+        PROJECT
     }
+    #endregion
+
+
+
     public class Essentials
     {
         public static Color TextColor = ColorTranslator.FromHtml("#d1d0c5");
@@ -72,6 +95,11 @@ namespace Project_Pulse.DL
         public static string MyName { get; } = "M Ahmad";
         public static string MyRole { get; } = "Creator";
         public static string subject_signUp { get; } = "Welcome to Project Navigator!";
+        public static void CloseApplication()
+        {
+            Program.formToinvoke = TYPE.CLOSE;
+            Application.Exit();
+        }
         public static string GetBodySignUP(Student student)
         {
             return $"Dear {student.FirstName},\r\n\r\nWelcome to {AppName} – your go-to platform for managing your academic projects!" +
@@ -108,6 +136,23 @@ namespace Project_Pulse.DL
 
             return bmp;
         }
+        public static T FindParent<T>(Control currentControl) where T : Control
+        {
+            Control parent = currentControl;
+            int count = 0;
+            while (parent != null)
+            {
+                if (parent is T)
+                {
+                    MessageBox.Show(count.ToString());
+                    return (T)parent;
+                }
+                count++;
+                parent = parent.Parent;
+            }
+            return null;
+        }
+
         public static string LookupToString(int val)
         {
             switch (val)

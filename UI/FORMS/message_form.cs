@@ -8,28 +8,24 @@ namespace Project_Pulse.UI.FORMS
     {
         string messageHeading;
         string messagetext;
-        Color borderColor;
-        Color bgColor;
         Image messageIcon;
         public form_message(string messageHeading, string messagetext, Color borderColor, Color bgColor, Image messageIcon)
         {
             InitializeComponent();
 
-            timeToClose = 0;
+            this.Opacity = 100;
 
-            //this.Visible = true;
-            this.Opacity = 0;
             StartPosition = FormStartPosition.Manual;
 
             // When use clicks on message form it close
-            gunaShadowPanel.Click += close_message;
+            panel_back.Click += close_message;
             label_dark.Click += close_message;
             label_light.Click += close_message;
 
 
             // hovers
-            gunaShadowPanel.MouseEnter += hover_message_mouse_enter;
-            gunaShadowPanel.MouseLeave += hover_message_mouse_leave;
+            panel_back.MouseEnter += hover_message_mouse_enter;
+            panel_back.MouseLeave += hover_message_mouse_leave;
             label_light.MouseEnter += hover_message_mouse_enter;
             label_light.MouseLeave += hover_message_mouse_leave;
             label_dark.MouseEnter += hover_message_mouse_enter;
@@ -50,41 +46,35 @@ namespace Project_Pulse.UI.FORMS
             // requirements
             this.messageHeading = messageHeading;
             this.messagetext = messagetext;
-            this.borderColor = borderColor;
-            this.bgColor = bgColor;
             this.messageIcon = messageIcon;
-
+            // COLORING
+            this.BackColor = borderColor;
+            panel_back.BackColor = bgColor;
+            panel_back.BaseColor = bgColor;
+            label_dark.BackColor = bgColor;
+            label_light.BackColor = bgColor;
+            PB_message_icon.BackColor = bgColor;
+            this.BackColor = borderColor;
+            panel_back.Radius = 6;
             // form elements initialization
             label_dark.Text = messageHeading;
             label_light.Text = messagetext;
             PB_message_icon.Image = messageIcon;
-            gunaShadowPanel.BackColor = bgColor;
-            this.BackColor = borderColor;
         }
 
-        // Fade is still in progress
-        int timeToClose = 0;
-        private void timer_fade_form_Tick(object sender, EventArgs e)
-        {
-            if (timeToClose == 50)
-                this.Close();
-            timeToClose++;
-            if (this.Opacity < 100)
-            {
-                this.Opacity += 3;
-            }
-        }
+        int count_toClose = 0;
+
 
         void hover_message_mouse_enter(object sender, EventArgs e)
         {
             PB_message_icon.Image = Project_Pulse.Properties.Resources.close_light;
             label_dark.Text = "close";
             label_light.Text = "Close  the  current  message:  click!"; ;
-            gunaShadowPanel.Radius = 15;
+            panel_back.Radius = 15;
         }
         void hover_message_mouse_leave(object sender, EventArgs e)
         {
-            gunaShadowPanel.Radius = 6;
+            panel_back.Radius = 6;
             PB_message_icon.Image = messageIcon;
             label_dark.Text = messageHeading;
             label_light.Text = messagetext;
@@ -92,6 +82,13 @@ namespace Project_Pulse.UI.FORMS
         void close_message(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void to_close_Tick(object sender, EventArgs e)
+        {
+            if (count_toClose == 9)
+                this.Close();
+            count_toClose++;
         }
     }
 }

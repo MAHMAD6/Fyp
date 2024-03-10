@@ -169,6 +169,15 @@
   <data name="cursor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cursor.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="email_light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\email_light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="evaluation_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\evaluation_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="left_element_mainPage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\left_element_mainPage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="loading_bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\loading_bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -184,11 +193,23 @@
   <data name="minmize_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\minmize_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="pdf_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pdf_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="profile_holder_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\profile_holder_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="project_icon_yellow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\project_icon_yellow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="project_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\project_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="project_main_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\project_main_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="right_element_mainPage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\right_element_mainPage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Side_panel_light_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Side_panel_light_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -200,7 +221,7 @@
     <value>..\Resources\sign_in_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sign_in_light" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sign_in_light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\Resources\sign_in_light (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sign_out_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sign_out_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -222,6 +243,9 @@
   </data>
   <data name="student_light" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\student_light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="success_light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\success_light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tick_yellow" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tick_yellow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
